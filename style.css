@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+  background: #fff;
+}
+.services-section {
+  padding: 58px 0 72px;
+  background: #fff;
+}
+.container {
+  max-width: 1120px;
+}
+.section-heading {
+  margin: 0 auto 42px;
+  max-width: 700px;
+}
+.section-heading h1,
+.section-heading h2 {
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+.section-heading h1,
+.section-heading h2 {
+  font-size: 34px;
+}
+.heading-line {
+  display: block;
+  width: 38px;
+  height: 3px;
+  background: #1764c0;
+  margin: 12px auto 13px;
+  border-radius: 3px;
+}
+.section-heading p {
+  margin: 0;
+  color: #999;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.service-card {
+  height: 100%;
+  min-height: 315px;
+  padding: 36px 28px 26px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+.service-card:hover {
+  transform: translateY(-9px);
+  box-shadow: 0 15px 30px rgba(0, 65, 140, 0.15);
+  border-color: #1764c0;
+}
+.service-icon {
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1764c0;
+  font-size: 50px;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+.service-card:hover .service-icon {
+  transform: scale(1.1);
+  color: #0d4f9d;
+}
+.service-card h3 {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 12px 0 13px;
+}
+.service-card p {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 1.8;
+  margin: 0 auto 21px;
+  max-width: 255px;
+}
+.read-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  min-width: 137px;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #1764c0;
+  border: 1px solid #b8cce6;
+  font-size: 12px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.read-btn i {
+  transition: transform 0.3s;
+}
+.read-btn:hover {
+  background: #1764c0;
+  color: #fff;
+  border-color: #1764c0;
+}
+.read-btn:hover i {
+  transform: translateX(4px);
+}
